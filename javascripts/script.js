@@ -20,9 +20,10 @@ $(document).ready(function(){
 		});
 
 	$.get("datos.json", function(datos){
-		$.each(datos.notas, function(nota){
-		var div = '<div id="box" class="col-xs-4"><img class="imagenes" src="' + nota.imagen + '" width="100%"/><a class="nota" href="#"><h2 id="texto">'+nota.titulo+'</h2></a></div>';	
-		$("#notasContainer").append(div);
-		});
+		for(var i = 0; i < datos.notas.length;i++){
+			var div = '<div id="box" class="col-xs-4"><img class="imagenes" src="' + datos.notas.imagen + '" width="100%"/><a class="nota" href="#"><h2 id="texto">'+datos.notas.titulo+'</h2></a></div>';	
+			$("#notasContainer").append(div);
+		}
+		
 	});
 });
