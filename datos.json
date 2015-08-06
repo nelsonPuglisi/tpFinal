@@ -1,0 +1,28 @@
+{
+  "notas": [
+    {
+    	"imagen":"marilyn.jpg",
+    	"titulo":"Marilyn"
+    },
+    {
+    	"imagen":"hendrix.jpg",
+    	"titulo":"Hendrix"
+    },
+    {
+    	"imagen":"mick.jpg",
+    	"titulo":"Jagger"
+    },
+    {
+    	"imagen":"cobain.jpg",
+    	"titulo":"Cobain"
+    },
+    {
+    	"imagen":"marilyn.jpg",
+    	"titulo":"Monroe"
+    },
+    {
+    	"imagen":"hendrix.jpg",
+    	"titulo":"Jimmy"
+    },
+  ]
+}
